@@ -10,11 +10,11 @@ class ShowBits{
         mask <<= numbits - 1;
         int spacer = 0;
         for (; mask != 0; mask >>>= 1){
-            if ((val & mask) != 0) System.out.println("1");
-            else System.out.println("0");
+            if ((val & mask) != 0) System.out.print("1");
+            else System.out.print("0");
             spacer++;
             if ((spacer % 8) == 0){
-                System.out.println(" ");
+                System.out.print(" ");
                 spacer = 0;
             }
         }
@@ -32,13 +32,13 @@ public class ShowBitsDemo {
         System.out.print("123 в двоичном: ");
         b.show(123);
 
-        System.out.println("\n87987 в двоичном: ");
+        System.out.print("\n87987 в двоичном: ");
         i.show(87987);
 
-        System.out.println("\n237658768 в двоичном: ");
+        System.out.print("\n237658768 в двоичном: ");
         li.show(237658768);
 
-        System.out.println("\nМладшие биты 87987: ");
+        System.out.print("\nМладшие биты 87987: ");
         b.show(87987);
 
     }
