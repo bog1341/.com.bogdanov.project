@@ -40,6 +40,5 @@ public class ShowBitsDemo {
 
         System.out.print("\nМладшие биты 87987: ");
         b.show(87987);
-
     }
 }
