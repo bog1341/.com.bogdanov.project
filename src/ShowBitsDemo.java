@@ -30,10 +30,10 @@ public class ShowBitsDemo {
         ShowBits li = new ShowBits(32);
 
         System.out.print("123 в двоичном: ");
-        b.show(123);
+        li.show(123);
 
         System.out.print("\n87987 в двоичном: ");
-        i.show(87987);
+        li.show(87987);
 
         System.out.print("\n237658768 в двоичном: ");
         li.show(237658768);
